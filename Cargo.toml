@@ -15,14 +15,14 @@ keywords    = [
 ]
 
 [dependencies]
-imgui = "0.11"
+imgui = { git = "https://github.com/mrautio/imgui-rs", branch = "feature/update-sdl2-dependencies" }
 log   = "0.4"
 
 [dev-dependencies]
 env_logger          = "0.10"
 error-iter          = "0.4"
-imgui               = "0.11"
-imgui-winit-support = "0.11"
+imgui               = { git = "https://github.com/mrautio/imgui-rs", branch = "feature/update-sdl2-dependencies" }
+imgui-winit-support = { git = "https://github.com/mrautio/imgui-rs", branch = "feature/update-sdl2-dependencies" }
 pixels              = "0.12.1"
 winit               = "0.27"
 winit_input_helper  = "0.13"
